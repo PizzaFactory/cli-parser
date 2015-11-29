@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: jp.pizzafactory.cli.parser Test Fragment
+Bundle-SymbolicName: jp.pizzafactory.cli.parser.test;singleton:=true
+Bundle-Version: 0.0.1.qualifier
+Fragment-Host: jp.pizzafactory.cli.parser.core;bundle-version="0.0.1"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.jdt.junit4.runtime;bundle-version="1.1.0",
+ org.junit;bundle-version="4.11",
+ org.hamcrest.library;bundle-version="1.3.0"
+Export-Package: jp.pizzafactory.cli.parser.core.internal

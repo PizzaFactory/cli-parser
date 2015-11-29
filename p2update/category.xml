@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/jp.pizzafactory.cli.parser.feature_0.0.0.jar" id="jp.pizzafactory.cli.parser.feature" version="0.0.0">
+    <category name="jp.pizzafactory.cli.parser"/>
+   </feature>
+   <feature url="features/jp.pizzafactory.cli.parser.feature.source_0.0.0.jar" id="jp.pizzafactory.cli.parser.feature.source" version="0.0.0">
+    <category name="jp.pizzafactory.cli.parser Developer Resources"/>
+   </feature>
+</site>
