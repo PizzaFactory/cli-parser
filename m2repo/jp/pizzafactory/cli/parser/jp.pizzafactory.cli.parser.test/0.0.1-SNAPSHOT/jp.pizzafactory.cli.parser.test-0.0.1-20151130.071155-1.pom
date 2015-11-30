@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<parent>
+		<artifactId>jp.pizzafactory.cli.parser</artifactId>
+		<groupId>jp.pizzafactory.cli.parser</groupId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../parent</relativePath>
+	</parent>
+	<modelVersion>4.0.0</modelVersion>
+  <artifactId>jp.pizzafactory.cli.parser.test</artifactId>
+  <packaging>eclipse-test-plugin</packaging>
+  <name>jp.pizzafactory.cli.parser :: test</name>
+  <description>jp.pizzafactory.cli.parser Test Plugin</description>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.eclipse.tycho</groupId>
+        <artifactId>tycho-surefire-plugin</artifactId>
+        <version>${tycho.version}</version>
+        <configuration>
+          <useUIHarness>false</useUIHarness>
+          <includes>
+            <include>**/*Test.java</include>
+          </includes>
+          <!-- Kill test JVM if tests take more than 10 minutes (600 seconds) to finish -->
+          <forkedProcessTimeoutInSeconds>600</forkedProcessTimeoutInSeconds>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.hamcrest</groupId>
+      <artifactId>hamcrest-library</artifactId>
+  </dependency>
+  </dependencies>
+  <dependencyManagement>
+  	<dependencies>
+  		<dependency>
+  			<groupId>org.hamcrest</groupId>
+  			<artifactId>hamcrest-library</artifactId>
+  			<version>1.3</version>
+  		</dependency>
+  	</dependencies>
+  </dependencyManagement>
+</project>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='2'>
+  <artifact classifier='osgi.bundle' id='jp.pizzafactory.cli.parser.test' version='0.0.1.20151130-0710'>
+    <properties size='5'>
+      <property name='artifact.size' value='4781'/>
+      <property name='download.size' value='4781'/>
+      <property name='maven-groupId' value='jp.pizzafactory.cli.parser'/>
+      <property name='maven-artifactId' value='jp.pizzafactory.cli.parser.test'/>
+      <property name='maven-version' value='0.0.1-SNAPSHOT'/>
+    </properties>
+  </artifact>
+  <artifact classifier='osgi.bundle' id='jp.pizzafactory.cli.parser.test.source' version='0.0.1.20151130-0710'>
+    <properties size='6'>
+      <property name='artifact.size' value='2757'/>
+      <property name='download.size' value='2757'/>
+      <property name='maven-groupId' value='jp.pizzafactory.cli.parser'/>
+      <property name='maven-artifactId' value='jp.pizzafactory.cli.parser.test'/>
+      <property name='maven-version' value='0.0.1-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+    </properties>
+  </artifact>
+</artifacts>
