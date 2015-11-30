@@ -1,6 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: jp.pizzafactory.cli.parser Core Plugin
+Bundle-Vendor: PizzaFactory Project
 Bundle-SymbolicName: jp.pizzafactory.cli.parser.core;singleton:=true
 Bundle-Version: 0.0.1.qualifier
 Bundle-Activator: jp.pizzafactory.cli.parser.core.internal.Activator

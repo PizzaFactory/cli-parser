@@ -1,6 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: jp.pizzafactory.cli.parser Test Fragment
+Bundle-Vendor: PizzaFactory Project
 Bundle-SymbolicName: jp.pizzafactory.cli.parser.test;singleton:=true
 Bundle-Version: 0.0.1.qualifier
 Fragment-Host: jp.pizzafactory.cli.parser.core;bundle-version="0.0.1"
