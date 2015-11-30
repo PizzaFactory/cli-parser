@@ -3,7 +3,7 @@ jdk:
 - oraclejdk8
 script: mvn -f parent/pom.xml deploy
 after_success:
-- git clone --depth=1 -b gh-pages https://${GH_TOKEN}@github.com/PizzaFactory/model-asam.git gh-pages
+- git clone --depth=1 -b gh-pages https://${GH_TOKEN}@github.com/PizzaFactory/cli-parser.git gh-pages
 - cd gh-pages
 - mvn process-resources install
 env:
@@ -12,4 +12,4 @@ env:
   - PIZZAFACTORY_VERSION=8.5
   - GIT_COMMITTER_NAME="Masaki Muranaka"
   - GIT_COMMITTER_EMAIL="monaka@monami-ya.jp"
-  - secure: "Y+GPkjQnADw/kU06nAhCx3zIL2or9dWfJfMf2tn0zrtDHl2+dfHAkfh2Zrnbaa4epfVAaMuq6fg+tJpghYpvlLjfYI80tNlMkZYHh3VVODQLw2qjEDmwk0dvUoK0qfcQJTJk6d4VA7vQ8n9Wr6Vb8KptzwENK8MYY03r7iAa2KFvLyxlZv9uMQMl+a2pBv7c54ZR2sOLrITQlBeOVv/48183dZwywL7FSiRaMtUcELfDssMxzF/e2spKu0lD157Dwo/jwQdfmvHmTtj0Y+SCb7fCB5QZRmOnyhByasLfBImqyO2+WYHR66kK0HuMa4GME9+tZa1ETrJXHpnWk22mRwTggfzZ83jHdPCY/xot1/2jcEgA3ZEOCFpxT/9C76yBpMjff1UpJOGqiQGT9UTWzk++ZctpIBnvxwR52H4Iz87pnBXiI5LbEVR3N+UPNMxK0sMrLHWzeQWvLmXn5dVBHc2HKkDaU3HoKkrn3Mjxyf4qhjf7HsppcKfSkAP1n4EZnBMbgw3w1ZaWVVkjc7yGuC6WPXPbyw4Rf+YsrhJDiK/UbL2x0lLLXNwVZEAfO9q+668CH+uCMJ0OIboZuN8NqOfS7dXIKUPwU/n8nWRxxHCfR0sc2E/JYSiI5zFr5mwbbMoBWRN9arGlZmyvnkUbAIFcHsQnZMSw8R6ixL/EC6c="
+  - secure: "htmt0vRHpzOSY0eGEZC7qzo9C9OcalnNkpPD1EXHK+1mJgofhBAnIQklv0PnmuIsCsdE5kEmmH0qIxJvc3q3Ubz6SWbb3lMhizifmoeOZY3MOfDzTssjTpgSmcszbXSCA+n8QL/Da2gx3rET98GEuIsnTfWtTSn5hRvvs767k8GCKYp6Eu6hMrsu8P6GLZ7Lym/46nCV5VCLP7LNunWWagxw40vwrsDM0Dhmm6TFvsQZSJ6jjHK49NJQ9IsRtl1rDoo7w4B4IbI9C9I44N8cr66UIfj9/vwNlXw7cn9NgwurdhlcZojmTThK9K45JBpEX0kqlYiFBWrNSwkqiijW/7k9M8SISMkOgMwzyZ1b0hTb7CXuKXaAR6QfAH60o/pAoaFMOjRDGk1a4StousyTIyKuwmEw7b6OyMPQ2oFTXi7TDv9iSljQDsmfd1aGwogI+dK6tiW5yei80k94J/ZDDhTxrgv68JMQpbPjVYhlhchK1TJ8LGZe4K1OFJfEc/s4zDblv3fRFC5ZfRVKj0QJwGe/IGYuoes440UcB7Z8EIHw/KaVrHCTVu/D0W60UShjyWFDyxbsVVz7RZUCuwGdRLRRcMuDIQPEKjCXmijef8tZj544S2aTGRQA7Re4szu1oB/sKGHEhhSxXc6uNKlSofYOkSHgY/zbKyZS8UDwYKc="
