@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='20151130-0714.Default' version='1.0.0.0-3cGr3D57E7AQAAI737YAM'>
+    <properties size='3'>
+      <property name='org.eclipse.equinox.p2.name' value='Uncategorized'/>
+      <property name='org.eclipse.equinox.p2.description' value='Default category for otherwise uncategorized features'/>
+      <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+    </properties>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='20151130-0714.Default' version='1.0.0.0-3cGr3D57E7AQAAI737YAM'/>
+    </provides>
+    <requires size='2'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='jp.pizzafactory.cli.parser.feature.feature.group' range='[0.0.1.20151130-0714,0.0.1.20151130-0714]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='jp.pizzafactory.cli.parser.feature.source.feature.group' range='[0.0.1.20151130-0714,0.0.1.20151130-0714]'/>
+    </requires>
+    <touchpoint id='null' version='0.0.0'/>
+  </unit>
+</units>
