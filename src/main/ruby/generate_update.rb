@@ -2,8 +2,8 @@
 
 require "fileutils"
 
-REPOSITORY_NAME="EMF models for specs by ASAM Update Site"
-BASE_URL="/model-asam"
+REPOSITORY_NAME="CLI-parser Update Site"
+BASE_URL="/cli-parser"
 
 def generate_content(base, dirs)
   FileUtils.mkdir_p("target/#{base}")

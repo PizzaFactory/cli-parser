@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?compositeMetadataRepository version='1.0.0'?>
-<repository name='EMF models for specs by ASAM Update Site'
+<repository name='CLI-parser Update Site'
   type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository'
   version='1.0.0'>
   <properties size='1'>
-    <property name='p2.timestamp' value='1452926118'/>
+    <property name='p2.timestamp' value='1452927348'/>
   </properties>
  <children size='2'>
-    <child location='/model-asam/p2repo/8.5/0.0.1.20151130-0750/'/>
-    <child location='/model-asam/p2repo/8.5/0.0.1.20151130-0915/'/>
+    <child location='/cli-parser/p2repo/8.5/0.0.1.20151130-0750/'/>
+    <child location='/cli-parser/p2repo/8.5/0.0.1.20151130-0915/'/>
   </children>
 </repository>
