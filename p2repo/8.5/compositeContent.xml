@@ -7,7 +7,7 @@
     <property name='p2.timestamp' value='1452927348'/>
   </properties>
  <children size='2'>
-    <child location='/cli-parser/p2repo/8.5/0.0.1.20151130-0750/'/>
-    <child location='/cli-parser/p2repo/8.5/0.0.1.20151130-0915/'/>
+    <child location='0.0.1.20151130-0750/'/>
+    <child location='0.0.1.20151130-0915/'/>
   </children>
 </repository>
